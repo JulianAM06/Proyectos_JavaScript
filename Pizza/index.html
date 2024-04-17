@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+      body{
+        background: url(image/large-pepperoni-pizza-t66bjpmdl7eybqdx.jpg);
+      }
+    }
+  </style>
+  <title>Pizza</title>
+  <link rel="icon" href="image/pizza.png" type="image/x-icon">
+</head>
+<body>
+
+    <div class="grid justify-center bg-white mt-10 border-2 border-black w-96 mx-auto p-16" id="contenedor">
+        <h1 class="text-black text-4xl font-semibold" id="titulo">🍕<br>Topping Pizza</h1>
+        <ul id="lista" class="list-disc mt-8 cursor-pointer">
+            <li id="aceitunas" class="bg-amber-900 text-white p-2 mt-2 topping hover:bg-amber-800 text-center">Aceitunas</li>
+            <li id="cebolla" class="bg-orange-600 text-white p-2 mt-2 topping hover:bg-orange-500 text-center">Cebolla</li>
+            <li id="albahaca" class="bg-amber-900 text-white p-2 mt-2 topping hover:bg-amber-800 text-center">Albahaca</li>
+            <li id="champiñones" class="bg-orange-600 text-white p-2 mt-2 topping hover:bg-orange-500 text-center">Champiñones</li>
+        </ul>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

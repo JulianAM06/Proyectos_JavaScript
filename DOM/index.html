@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+      body {
+        background: black;
+      }
+    }
+  </style>
+</head>
+<body>
+
+    <div class="grid justify-center">
+        <h1 class="text-white text-8xl">Sumar</h1>
+        <input type="number" id="n1" placeholder="Ingresa Primer Numero" class="mt-2 border-2 border-teal-800 rounded-md">
+        <input type="number" id="n2" placeholder="Ingresa Segundo Numero" class="mt-2 border-2 border-teal-800 rounded-md">
+        <button id="calcular" class="bg-teal-800 text-white mt-2 rounded-xl">Calcular</button>
+        <p id="respuesta" class="text-white mx-auto">-----</p>
+    </div>
+    
+   
+    <script src="./main.js"></script>
+</body>
+</html>

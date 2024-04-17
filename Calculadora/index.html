@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+      body {
+        background: black;
+      }
+    }
+  </style>
+</head>
+<body>
+
+    <div class="grid justify-center">
+        <h1 class="text-white text-8xl">Calculadora</h1>
+            <div class="container rounded-xl w-3/4 mx-auto mt-8 bg-blue-900">
+                <div class="grid justify-end">
+                    <i class="w-6 h-6 rounded-full mr-2 mt-2 bg-black"></i>
+                </div>
+                <div class="grid justify-end">
+                    <p class="text-white text-6xl mr-2 mb-2" id="display"></p>
+                </div>
+                <div class="grid gap-4 grid-cols-4 grid-rows-3 p-2">
+                    <button class="bg-white rounded-full p-1" id="limpiar">C</button>
+                    <button class="bg-white rounded-full" id="/">/</button>
+                    <button class="bg-white rounded-full" id="*">X</button>
+                    <button class="bg-white rounded-full" id="borrar"><</button>
+                    <button class="bg-white rounded-full" id="7">7</button>
+                    <button class="bg-white rounded-full" id="8">8</button>
+                    <button class="bg-white rounded-full" id="9">9</button>
+                    <button class="bg-white rounded-full" id="-">-</button>
+                    <button class="bg-white rounded-full" id="4">4</button>
+                    <button class="bg-white rounded-full" id="5">5</button>
+                    <button class="bg-white rounded-full" id="6">6</button>
+                    <button class="bg-white rounded-full" id="+">+</button>
+                    <button class="bg-white rounded-full p-1" id="1">1</button>
+                    <button class="bg-white rounded-full" id="2">2</button>
+                    <button class="bg-white rounded-full" id="3">3</button>
+                    <button class="bg-white rounded-full row-span-2" id="igual">=</button>
+                    <button class="bg-white rounded-full p-1" id=".">.</button>
+                    <button class="bg-white rounded-full" id="0">0</button>
+                    <button class="bg-white rounded-full" id="00">00</button>
+                </div>
+            </div>
+    </div>
+
+  <script src="./main.js"></script>
+</body>
+</html>
